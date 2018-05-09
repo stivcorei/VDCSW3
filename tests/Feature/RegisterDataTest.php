@@ -29,7 +29,7 @@ class RegisterDataTest extends TestCase
                       'altitude-estate'=>'Prueba',
                       'city-estate'=>'Prueba',
                       'vereda-estate'=>'Prueba',
-                      'btn-manage' => 'sae'])->assertStatus(200);
+                      'btn-manage' => 'save'])->assertStatus(200);
     }
 
     public function testRegisterLotsIndex()
